@@ -2,17 +2,21 @@ const elementos = [
 	{
 		nombre: "Aplicaciones",
 		artículos: [{
-			nombre: "artículo 1"
+			nombre: "artículo 1",
+			imagen: "https://avatars.githubusercontent.com/u/76429811"
 		}, {
-			nombre: "artíuclo 2"
+			nombre: "artículo 2",
+			imagen: "https://avatars.githubusercontent.com/u/76429811"
 		}]
 	},
 	{
 		nombre: "Juegos",
 		artículos: [{
-			nombre: "artículo 1"
+			nombre: "artículo 1",
+			imagen: "https://avatars.githubusercontent.com/u/76429811"
 		}, {
-			nombre: "artículo 2"
+			nombre: "artículo 2",
+			imagen: "https://avatars.githubusercontent.com/u/76429811"
 		}]
 	}];
 
@@ -46,6 +50,19 @@ function crear_contenido(artículos) {
 
 function crear_artículo(artículo) {
 	const nodo = document.createElement("article");
-	nodo.textContent = artículo.nombre;
+	nodo.appendChild(crear_imagen(artículo.imagen));
+	nodo.appendChild(crear_texto(artículo.nombre));
+	return nodo;
+}
+
+function crear_imagen(imagen) {
+	const nodo = document.createElement("img");
+	nodo.src = imagen;
+	return nodo;
+}
+
+function crear_texto(nombre) {
+	const nodo = document.createElement("h3");
+	nodo.textContent = nombre;
 	return nodo;
 }
