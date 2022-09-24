@@ -41,8 +41,20 @@ section > div {
 	flex-wrap: wrap;
 }
 
+h2 {
+	margin-left: 20px;
+}
+
 article {
-	min-width: 20%;
+	margin: 20px 20px 0 20px;
+}
+
+article > img {
+	height: 200px;
+}
+
+h3 {
+	margin-top: 10px;
 }
 
 p {
