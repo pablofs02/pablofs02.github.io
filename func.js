@@ -6,21 +6,21 @@ const elementos = [
 			imagen: "https://avatars.githubusercontent.com/u/76429811",
 			enlace: "Cronos"
 		}, {
-			nombre: "artículo 2",
+			nombre: "Curriculum Vitae",
 			imagen: "https://avatars.githubusercontent.com/u/76429811",
-			enlace: ""
+			enlace: "Curriculum-Vitae"
 		}]
 	},
 	{
 		nombre: "Juegos",
 		artículos: [{
-			nombre: "artículo 1",
+			nombre: "Rompe Ladrillos",
 			imagen: "https://avatars.githubusercontent.com/u/76429811",
-			enlace: ""
+			enlace: "Rompe-Ladrillos"
 		}, {
-			nombre: "artículo 2",
+			nombre: "Lucha",
 			imagen: "https://avatars.githubusercontent.com/u/76429811",
-			enlace: ""
+			enlace: "Lucha"
 		}]
 	}];
 
