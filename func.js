@@ -2,21 +2,25 @@ const elementos = [
 	{
 		nombre: "Aplicaciones",
 		artículos: [{
-			nombre: "artículo 1",
-			imagen: "https://avatars.githubusercontent.com/u/76429811"
+			nombre: "Cronos",
+			imagen: "https://avatars.githubusercontent.com/u/76429811",
+			enlace: "Cronos"
 		}, {
 			nombre: "artículo 2",
-			imagen: "https://avatars.githubusercontent.com/u/76429811"
+			imagen: "https://avatars.githubusercontent.com/u/76429811",
+			enlace: ""
 		}]
 	},
 	{
 		nombre: "Juegos",
 		artículos: [{
 			nombre: "artículo 1",
-			imagen: "https://avatars.githubusercontent.com/u/76429811"
+			imagen: "https://avatars.githubusercontent.com/u/76429811",
+			enlace: ""
 		}, {
 			nombre: "artículo 2",
-			imagen: "https://avatars.githubusercontent.com/u/76429811"
+			imagen: "https://avatars.githubusercontent.com/u/76429811",
+			enlace: ""
 		}]
 	}];
 
@@ -52,6 +56,9 @@ function crear_artículo(artículo) {
 	const nodo = document.createElement("article");
 	nodo.appendChild(crear_imagen(artículo.imagen));
 	nodo.appendChild(crear_texto(artículo.nombre));
+	nodo.addEventListener("click", () => {
+		location.assign(artículo.enlace);
+	});
 	return nodo;
 }
 
