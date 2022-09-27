@@ -15,12 +15,16 @@ const elementos = [
 		nombre: "Juegos",
 		artículos: [{
 			nombre: "Rompe Ladrillos",
-			imagen: "https://avatars.githubusercontent.com/u/76429811",
+			imagen: "https://repository-images.githubusercontent.com/471554899/d3bb30f9-9f89-475d-9976-4841586492f5",
 			enlace: "Rompe-Ladrillos"
 		}, {
 			nombre: "Lucha",
 			imagen: "https://avatars.githubusercontent.com/u/76429811",
 			enlace: "Lucha"
+		}, {
+			nombre: "Serpiente",
+			imagen: "https://avatars.githubusercontent.com/u/76429811",
+			enlace: "https://github.com/TetrisRubik/Serpiente"
 		}]
 	}];
 
