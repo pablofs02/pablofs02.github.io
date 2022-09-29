@@ -43,10 +43,15 @@ section > div {
 
 h2 {
 	margin-left: 20px;
+	text-decoration: underline;
 }
 
 article {
-	margin: 20px 20px 0 20px;
+	margin: 8px 20px 0 20px;
+}
+
+article:hover {
+	cursor: pointer;
 }
 
 article > img {

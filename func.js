@@ -58,8 +58,8 @@ function crear_contenido(artículos) {
 
 function crear_artículo(artículo) {
 	const nodo = document.createElement("article");
-	nodo.appendChild(crear_imagen(artículo.imagen));
 	nodo.appendChild(crear_texto(artículo.nombre));
+	nodo.appendChild(crear_imagen(artículo.imagen));
 	nodo.addEventListener("click", () => {
 		location.assign(artículo.enlace);
 	});
