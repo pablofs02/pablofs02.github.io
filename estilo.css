@@ -8,20 +8,20 @@ body {
 	font-family: sans-serif;
 }
 
-header {
+.bios {
 	display: flex;
 	margin: 20px;
 	padding: 20px;
 	background-color: #202020;
 }
 
-header > img {
+.bios > img {
 	max-width: 100%;
 	max-height: 24vh;
 	border-radius: 100%;
 }
 
-header > div {
+.bios > div {
 	margin-left: 24px;
 }
 
