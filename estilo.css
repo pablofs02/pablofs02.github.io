@@ -47,17 +47,19 @@ h2 {
 	text-decoration: underline;
 }
 
-article {
+.artículo {
 	padding: 0 20px 10px 20px;
+	text-decoration: none;
+	color: #C0C0C0;
 }
 
-article:hover {
+.artículo:hover {
 	cursor: pointer;
 	box-shadow: 0px 0px 4px 2px #121212;
 	background-color: #181818;
 }
 
-article > img {
+.artículo > img {
 	margin: 0;
 	height: 200px;
 }
