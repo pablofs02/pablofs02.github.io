@@ -38,6 +38,7 @@ section {
 
 section > div {
 	display: flex;
+	padding-top: 8px;
 	flex-wrap: wrap;
 }
 
@@ -47,19 +48,22 @@ h2 {
 }
 
 article {
-	margin: 8px 20px 0 20px;
+	padding: 0 20px 10px 20px;
 }
 
 article:hover {
 	cursor: pointer;
+	box-shadow: 0px 0px 4px 2px #121212;
+	background-color: #181818;
 }
 
 article > img {
+	margin: 0;
 	height: 200px;
 }
 
 h3 {
-	margin-top: 10px;
+	margin: 10px 0;
 }
 
 p {
