@@ -8,6 +8,66 @@ body {
 	font-family: sans-serif;
 }
 
+header {
+	height: 50px;
+	background-color: #202020;
+}
+
+#opciones {
+	display: flex;
+	width: fit-content;
+	margin: 0 auto;
+}
+
+#botón_tema {
+	width: 28px;
+	margin: 10px;
+}
+
+#botón_tema:hover {
+	opacity: 80%;
+	cursor: pointer;
+}
+
+#botón_idioma {
+	width: 32px;
+	height: 22px;
+	margin: auto 8px;
+	border-radius: 16%;
+}
+
+#botón_idioma:hover {
+	opacity: 80%;
+	cursor: pointer;
+}
+
+#lista_idioma {
+	position: absolute;
+	top: 45px;
+	right: 16px;
+	padding: 4px;
+	border: 2px solid var(--borde);
+	background-color: var(--fondo_base);
+	list-style-type: none;
+	z-index: 10;
+}
+
+#lista_idioma > li {
+	padding: 6px;
+}
+
+#lista_idioma > li:hover {
+	opacity: 80%;
+	cursor: pointer;
+	background-color: var(--fondo_selección);
+}
+
+#lista_idioma > li > img {
+	position: relative;
+	top: 2px;
+	border-radius: 16%;
+}
+
 .bios {
 	display: flex;
 	margin: 20px;
