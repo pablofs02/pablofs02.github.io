@@ -54,27 +54,27 @@ function poner_tema(tema) {
 }
 
 function poner_tema_oscuro() {
-	const icono_tema_claro = "archivos/temas/modo_claro.svg";
-	const alternativa_tema_claro = "Cambiar a modo claro";
+	const icono_tema_oscuro = "archivos/temas/modo_oscuro.svg";
+	const alternativa_tema_oscuro = "Cambiar a modo claro";
 	const nombre = tema_oscuro + terminación;
 	const ruta_tema_oscuro = ruta_tema + nombre;
 
 	nodo_tema.setAttribute("href", ruta_tema_oscuro);
-	botón_tema.setAttribute("src", icono_tema_claro);
-	botón_tema.setAttribute("alt", alternativa_tema_claro);
+	botón_tema.setAttribute("src", icono_tema_oscuro);
+	botón_tema.setAttribute("alt", alternativa_tema_oscuro);
 
 	localStorage.setItem("tema", tema_oscuro);
 }
 
 function poner_tema_claro() {
-	const icono_tema_oscuro = "archivos/temas/modo_oscuro.svg";
-	const alternativa_tema_oscuro = "Cambiar a modo oscuro";
+	const icono_tema_claro = "archivos/temas/modo_claro.svg";
+	const alternativa_tema_claro = "Cambiar a modo oscuro";
 	const nombre = tema_claro + terminación;
 	const ruta_tema_claro = ruta_tema + nombre;
 
 	nodo_tema.setAttribute("href", ruta_tema_claro);
-	botón_tema.setAttribute("src", icono_tema_oscuro);
-	botón_tema.setAttribute("alt", alternativa_tema_oscuro);
+	botón_tema.setAttribute("src", icono_tema_claro);
+	botón_tema.setAttribute("alt", alternativa_tema_claro);
 
 	localStorage.setItem("tema", tema_claro);
 }
