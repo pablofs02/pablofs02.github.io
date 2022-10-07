@@ -46,12 +46,15 @@ header {
 }
 
 #lista_idioma {
+	width: fit-content;
 	position: absolute;
 	top: 45px;
-	right: 16px;
+	right: 0;
+	left: 0;
+	margin: 0 auto;
 	padding: 4px;
-	border: 2px solid var(--borde);
-	background-color: var(--fondo_base);
+	border: 2px solid var(--fuente);
+	background-color: var(--fondo_principal);
 	list-style-type: none;
 	z-index: 10;
 }
@@ -63,7 +66,7 @@ header {
 #lista_idioma > li:hover {
 	opacity: 80%;
 	cursor: pointer;
-	background-color: var(--fondo_selección);
+	background-color: var(--fondo_secundario);
 }
 
 #lista_idioma > li > img {
