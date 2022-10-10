@@ -1,6 +1,7 @@
 :root {
-	--fondo_principal: #181818;
-	--fondo_secundario: #202020;
+	--fondo_principal: #FFFFFF;
+	--fondo_secundario: #F5F5F5;
 	--sombra: #121212;
-	--fuente: #C0C0C0;
+	--fuente: #121212;
+	--selección: #EEEEEE;
 }
