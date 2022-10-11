@@ -57,11 +57,12 @@ function crear_contenido(artículos) {
 }
 
 function crear_artículo(artículo) {
-	const nodo = document.createElement("a");
-	nodo.appendChild(crear_texto(artículo.nombre));
-	nodo.appendChild(crear_imagen(artículo.imagen));
-	nodo.href = artículo.enlace;
-	nodo.classList.add("artículo");
+	const nodo = document.createElement("article");
+	const enlace = document.createElement("a");
+	enlace.appendChild(crear_texto(artículo.nombre));
+	enlace.appendChild(crear_imagen(artículo.imagen));
+	enlace.href = artículo.enlace;
+	nodo.appendChild(enlace);
 	return nodo;
 }
 
