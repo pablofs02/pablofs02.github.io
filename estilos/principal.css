@@ -14,7 +14,12 @@ body {
 
 header {
 	margin: 20px;
+	margin-top: 0;
 	padding: 0 20px;
+	border-radius: 9px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	box-shadow: 2px 2px 4px var(--sombra);
 	background-color: var(--fondo_secundario);
 }
 
@@ -144,7 +149,7 @@ p {
 	font-size: 1.2em;
 }
 
-section, header, .bios {
-	border-radius: 9px 9px;
+section, .bios {
+	border-radius: 9px;
 	box-shadow: 2px 2px 4px var(--sombra);
 }
