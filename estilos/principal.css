@@ -13,7 +13,8 @@ body {
 }
 
 header {
-	height: 50px;
+	margin: 20px;
+	padding: 0 20px;
 	background-color: var(--fondo_secundario);
 }
 
@@ -144,10 +145,6 @@ p {
 }
 
 section, header, .bios {
-	box-shadow: 1px 1px 1px var(--sombra);
-}
-
-section, .bios {
 	border-radius: 9px 9px;
 	box-shadow: 2px 2px 4px var(--sombra);
 }
