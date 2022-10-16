@@ -149,7 +149,14 @@ p {
 	font-size: 1.2em;
 }
 
-section, .bios {
+footer {
+	display: flex;
+	margin: 20px;
+	padding: 20px;
+	background-color: var(--fondo_secundario);
+}
+
+section, .bios, footer {
 	border-radius: 9px;
 	box-shadow: 2px 2px 4px var(--sombra);
 }
