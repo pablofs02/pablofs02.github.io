@@ -4,12 +4,12 @@ const botón_idiomas = document.getElementById("botón_idioma");
 const lista_idiomas = document.getElementById("lista_idioma");
 
 const ruta_banderas = "archivos/banderas/";
-const extensión_bandera = ".png";
+const extensión_bandera = ".svg";
 const ruta_idioma = "archivos/idiomas/";
 const extensión_idioma = ".json";
 
 const idiomas = { "español": "es", "english": "en", "français": "fr", "deutsch": "de", "italiano": "it", "português": "pt", "日本語": "ja", "中文": "zh", "한국어": "ko" };
-const idiomas_disponibles = ["español", "english"];
+const idiomas_disponibles = ["español", "deutsch"];
 
 configurar_idioma();
 
@@ -37,7 +37,7 @@ function traducir_título(título) {
 }
 
 function cambiar_bandera(idioma) {
-	const nombre = idiomas[idioma] + extensión_bandera;
+	const nombre = idioma + extensión_bandera;
 	const ruta = ruta_banderas + nombre;
 	botón_idiomas.setAttribute("src", ruta);
 }
@@ -91,7 +91,7 @@ function crear_elemento_idioma(idioma) {
 
 function crear_imagen_elemento(idioma) {
 	const imagen = document.createElement("img");
-	const nombre = idiomas[idioma] + extensión_bandera;
+	const nombre = idioma + extensión_bandera;
 	const ruta = ruta_banderas + nombre;
 	imagen.setAttribute("src", ruta);
 	return imagen;
