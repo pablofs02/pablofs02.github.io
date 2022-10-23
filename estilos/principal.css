@@ -81,29 +81,33 @@ header {
 	border-radius: 16%;
 }
 
-.bios {
+main {
 	display: flex;
+}
+
+.bios {
+	width: 20%;
 	margin: 20px;
 	padding: 20px;
 	background-color: var(--fondo_secundario);
 }
 
 .bios > img {
-	max-width: 100%;
-	max-height: 24vh;
+	display: block;
+	margin: auto;
+	width: 30vh;
 	border-radius: 100%;
 }
 
-.bios > div {
-	margin-left: 24px;
-}
-
 h1 {
-	font-size: 2.5em;
+	text-align: center;
+	margin-top: 10px;
 	margin-bottom: 10px;
+	font-size: 2.5em;
 }
 
 section {
+	width: 82%;
 	margin: 20px;
 	padding: 20px;
 	background-color: var(--fondo_secundario);
@@ -112,7 +116,6 @@ section {
 section > div {
 	display: flex;
 	padding-top: 8px;
-	flex-wrap: wrap;
 }
 
 h2 {

@@ -31,7 +31,7 @@ const elementos = [
 agregar_elementos(elementos);
 
 function agregar_elementos(listado) {
-	const nodo = document.querySelector("main");
+	const nodo = document.getElementById("secciones");
 	for (let i = 0; i < listado.length; i++)
 		nodo.appendChild(crear_sección(listado[i]));
 }
