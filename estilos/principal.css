@@ -106,8 +106,12 @@ h1 {
 	font-size: 2.5em;
 }
 
+#secciones{
+	max-width: 68.64%;
+}
+
 section {
-	width: 82%;
+	width: 100%;
 	margin: 20px;
 	padding: 20px;
 	background-color: var(--fondo_secundario);
@@ -116,6 +120,7 @@ section {
 section > div {
 	display: flex;
 	padding-top: 8px;
+	overflow-x: scroll;
 }
 
 h2 {
